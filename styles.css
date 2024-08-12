@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+:root {
+    --azul__escuro: #0A3871;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F3F5FC;
+    
+
+}
+
+p {
+    font-family: 'Nunito',sans-serif;
+    font-weight: 500;
+}
+
+.imagem-logo {
+    padding: 1% 2%;
+    height: 2rem;
+}
+
+.principal {
+    padding: 0% 5%;
+    display: flex;
+    height: 50rem;
+
+}
+
+.parte__um {
+    width: 70%;
+    padding-top: 5%;
+    
+}
+
+.parte__dois {
+    width: 40%;
+    height: 35rem;
+    background-color:#ffffff;
+    padding: 2.2% 2%;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 5px 0px rgb(219, 219, 219);
+}
+
+.imagem__dois {
+    padding-left: 25%;
+}
+
+.resultado {
+    font-size: 25px;
+    height: 50%;
+    
+}
+
+#caixa-texto {
+    resize: none;
+    height: 20rem;
+    width: 60%;
+    font-size: 25px;
+    font-weight: 400;
+    background-color: #F3F5FC;
+    border-radius: 5px;
+    border-color: #ededed;
+    padding: 5%;
+    color: #0A3871;
+    
+
+}
+
+.info{
+    padding: 1%;
+}
+
+.info p {
+    font-size: 0.9rem;
+}
+
+.imagem__info {
+    height: 0.9rem;
+    
+}
+
+.botoes {
+    display: flex;
+    gap: 3rem;
+    padding-top: 3%;
+
+}
+
+.botoes__estilo {
+    color: #f7f7f7;
+    height: 4rem;
+    width: 12rem;
+    border: none;
+    border-radius: 40px;
+    background-color: var(--azul__escuro);
+    font-family: 'Nunito',sans-serif;
+    font-weight: 800;
+
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    background-color: #0A3871;
+    margin-top: 3%;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    
+}
+
+.resultado {
+    resize: none;
+    height: 10rem;
+    width: 90%;
+    font-size: 25px;
+    font-weight: 400;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    padding: 5%;
+    color: #0A3871;
+    outline: none;
+    
+}
+
+
+
+/*RESPONSIVO*/
+
+@media (max-width: 1110px) {
+    .imagem__dois {
+        height: 20rem;
+        padding: 1%;
+    }
+
+}
+
+@media (max-width: 880px) {
+    .principal {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .parte__um {
+        width: 100%;
+    }
+
+    #caixa-texto {
+        width: 90%;
+        font-size: 35px;
+    }
+
+    .botoes {
+        padding-top: 1%;
+        
+    }
+
+    .botoes__estilo {
+        height: 6rem;
+        font-size: 1.1rem;
+        width: 45%;
+    
+    }
+
+    .parte__dois {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 0%;
+        
+
+        
+    }
+
+    .resultado {
+        font-size: 30px;
+    }
+
+    .imagem__dois{
+        width: 50%; 
+        height: 15rem;
+    }
+
+    .imagem-logo {
+        height: 3rem;
+    }
+
+    .rodape {
+        margin-top: 20%;
+    }
+}

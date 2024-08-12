@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Decodificador</title>
+</head>
+<body>
+    <header>
+        <img class="imagem-logo" src="images/Vector.png" alt="logo">
+    </header>
+
+    <main class="principal">
+        <section class="parte__um">
+            <div class="caixa-texto">
+                <textarea type="text" name="texto" id="caixa-texto" placeholder="Escreva aqui" ></textarea>
+            </div>
+    
+            <div class="info">
+                <p>
+                <img class="imagem__info" src="images/bi_exclamation-circle-fill.png" alt="exclamacao">
+                Apenas letras minúsculas e sem acento.
+
+                </p>
+            </div>
+
+            <div class="botoes">
+                <button class="botoes__estilo" id="botao__cripto" onclick="btnCriptografar()">CRIPTOGRAFAR</button>
+                <button class="botoes__estilo" onclick="btnDescriptografar()" >DESCRIPTOGRAFAR</button>
+            </div>
+        </section>
+        <section class="parte__dois">
+                <textarea class="resultado" disabled ></textarea>
+                <img class="imagem__dois" src="images/High quality products 1 1.png" alt="imagem">
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>
+            DESENVOLVIDO POR VICTOR FEITOSA
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
