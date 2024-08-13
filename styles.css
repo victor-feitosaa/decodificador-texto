@@ -299,6 +299,7 @@ p {
     }
 
     .rodape {
-        margin-top: 110%;
+        margin-top: 220%;
+        font-size: 0.6rem;
     }
 }
